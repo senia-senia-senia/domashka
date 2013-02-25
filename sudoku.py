@@ -19,8 +19,8 @@ while flag == 1:
             vvod = input()
             vvod = int(vvod)
             while T == True:
-                if (vvod <2 ) and (vvod > 0  ):
-                   pass 
+                if (vvod <3 ) and (vvod > -1  ):
+                   T = False 
                 else:
                     print('Неверная кодировка!')
                 break
